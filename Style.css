@@ -1,0 +1,46 @@
+body{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgb(243, 236, 226);
+}
+#DPrincipal{
+    width: 100%;
+    height: 100%;
+}
+header{
+    background-color: aquamarine;
+    border-radius: 10px;
+    height: auto;
+    width: 98%;
+    text-shadow: rgb(60, 60, 61) 3px 3px 5px;
+    box-shadow: rgb(162, 215, 250) 5px 5px 5px;
+}
+section{
+    display: inline-block;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+section ul{
+    list-style: none;
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+}
+form label{
+    display: block;
+    padding: 20px 0px 0px 0px;
+}
+form :last-child{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+#submit:hover{
+    background-color: rgb(110, 202, 96);
+}
+footer{
+    clear: both;
+    border-top: solid 1px rgb(60, 60, 61);
+    padding: 20px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div id="DPrincipal"> <!--Div principal-->
+        <header><!--Cabezera-->
+            <h1>Formulario</h1>
+        </header>
+        <section id="Primersec"><!--Primera parte del cuerpo (Izquierda)-->
+            <form action="submit" method="get">
+                <label for="Nombre">Nombre:</label>
+                <input type="text" id="Nombre"  name="Nombre" maxlength="20" required>
+                <label for="Apellido">Apellido:</label>
+                <input type="text" id="Apellido" name="Apellido" maxlength="10">
+                <label for="FRegistro">Fecha de registro:</label>
+                <input type="datetime-local" id="FRegistro" name="FRegistro">
+                <label for="Nickname">Nickname:</label>
+                <input type="text" id="Nickname" name="Nickname">
+                <input type="button" value="submit" id="submit">
+            </form>
+        </section>
+        <section id="Segundosec"><!--Segunda parte del cuerpo (Derecha)-->
+            <h2>Datos anexados</h2>
+            <ul id="list">
+                
+            </ul>
+        </section>
+        <footer><!--Pie de pagina-->
+            By NovakidG
+        </footer>
+    </div>
+    <script src="formulario.js"></script>
+</body>
+</html>
